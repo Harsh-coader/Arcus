@@ -1,22 +1,22 @@
-import pyttsx3
-import speech_recognition as sr
+import pyttsx3 #pip install pyttsx3
+import speech_recognition as sr #pip install speechRecognition
 import datetime
 import os
 import random
-import requests
+import requests #pip install requests
 from requests import get
-import wikipedia
-import webbrowser
-import smtplib
+import wikipedia #pip install wikipedia
+import webbrowser #pip install webbrowser
+import smtplib #pip install secure-smtplib
 import sys
 import cv2
 from bs4 import BeautifulSoup
 import time
-import pyautogui
-import geocoder
+import pyautogui #pip install puautogui
+import geocoder #pip install geocoder
 import operator
-import pyjokes
-import phonenumbers
+import pyjokes #pip install pyjokes
+import phonenumbers #pip install phonenumbers
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
